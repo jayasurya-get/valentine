@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter for Mithuna ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>💖 A Special Message for You 💖</h1>
+        
+        <div id="password-section">
+            <p>Enter the secret password to unlock the message:</p>
+            <input type="password" id="password" placeholder="Enter Password">
+            <button onclick="checkPassword()">Unlock 💕</button>
+        </div>
+
+        <div id="content" class="hidden">
+            <div class="language-switch">
+                <button onclick="showMessage('english')">English 🇬🇧</button>
+                <button onclick="showMessage('tamil')">தமிழ் 🇮🇳</button>
+            </div>
+
+            <div id="message">
+                <!-- The love message will be displayed here -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
